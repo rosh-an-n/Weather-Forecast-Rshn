@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("./back.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Poppins';
+    color: #5c54ff;
+}
+
+
+
+p{
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+sup{
+    font-size: 0.7rem;
+}
+
+
+.card{
+    padding: 4rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    /* background: #f6f6f9; */
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 1rem 3rem var(--color-light);;
+    transition: all 300ms ease;
+    padding-bottom: 2rem;
+    
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.location span{
+    font-size: 1.7em;
+    margin-right: 3px;
+}
+.location sup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.6em;
+    height: 1.2em;
+    /* background-color: rgb(1, 1, 1); */
+    padding: 2px;
+    border-radius: 30%;
+}
+.cloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.cloud i{
+    font-size: 8rem;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+}
+.temp span{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.temp sup{
+    font-size: 1rem;
+}
+
+.temp_feels_like{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.temp_feels_like span{
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.search{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.search input{
+    border: none;
+    outline: none;
+    height: 2.1rem;
+    border-radius: 1rem;
+    padding: .2rem 1.5rem;
+    border: 1px solid #726bff;
+
+}
+.search button{
+    border: none;
+    outline: none;
+    height: 2.3rem;
+    border-radius: 1rem;
+    padding: .2rem 1.5rem;
+    font-size: 1rem;
+    color: #726bff;
+    border: 1px solid #726bff;
+}
